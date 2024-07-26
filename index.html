@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <link href="data:image/x-icon;" rel="icon" />
+    <title>Jeremiah Atwell</title>
+    <style>
+      body {
+        color: #fff;
+        background-color: #111;
+      }
+      .center-content {
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+        justify-content: center;
+        margin-top: 4em;
+        gap: 1em;
+        height: fit-content;
+      }
+      .left-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .link-list {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: .5em;
+      }
+      .right-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+      }
+      .title {
+        font-size: 2em;
+      }
+      .face-photo {
+        border-radius: 50%;
+        height: 12em;
+      }
+      .contact-buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 75%;
+        gap: 1em;
+        justify-content: center;
+        margin-bottom: 1em;
+      }
+      .contact-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .icon {
+        margin-right: .25em;
+        font-size: 2em;
+      }
+      a {
+        color: #99F;
+        text-decoration: none;
+      }
+      @media (max-width: 600px) {
+        /* For mobile phones: */
+        .center-content {
+          flex-direction: column-reverse !important;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+  <div class="center-content">
+    <div class="left-column">
+      <div class="contact-buttons">
+        <div class="contact-button">
+          <a href="tel:+19177277693">
+          <span class="icon">&#128222;</span>
+            <span>917-727-7693</span>
+          </a>
+        </div>
+        <div class="contact-button">
+          <span class="icon">&#128279;</span>
+          <a href="https://github.com/mai-gh">
+            <span>GitHub</span>
+          </a>
+        </div>
+        <div class="contact-button">
+          <span class="icon">&#128231;</span>
+          <a href="mailto:jea989@gmail.com">
+            <span>jea989@gmail.com</span>
+          </a>
+        </div>
+        <div class="contact-button">
+          <span class="icon">&#128196;</span>
+          <a href="resume.pdf">
+            <span>Resume</span>
+          </a>
+        </div>
+      </div>
+      <div class="link-list">
+        <div class="contact-button">
+          <span class="icon">&#x1F9D1;&#x200D;&#x1F4BB;</span>
+          <a href="/software-professional">Professional Software Engineering Experience</a>
+        </div>
+        <div class="contact-button">
+          <span class="icon">&#x1F4BE;</span>
+          <a href="/software-personal">Software Engineering Personal Projects</a></li>
+        </div>
+        <div class="contact-button">
+          <span class="icon">&#x1FA9A;</span>
+          <a href="/woodworking">Wood Working / Cabinet Making / Scenic Carpentry</a></li>
+        </div>
+        <div class="contact-button">
+          <span class="icon">{}</span>
+          <a href="https://mai-gh.github.io/blog/">Dev Blog</a></li>
+        </div>
+        <div class="contact-button">
+          <span class="icon">&#x1F6EB;</span>
+          <a href="/travels">Travel Blog</a></li>
+        </div>
+        <div class="contact-button">
+          <span class="icon">&#x1F96B;</span>
+          <a href="/vegan">Cooking Blog</a></li>
+        </div>
+      </div>
+    </div>
+    <div class="right-column">
+      <img class="face-photo" src="photos/me.jpg"></img>
+      <span class="title">Jeremiah Atwell</span>
+    </div>
+  </div>
+  </body>
+</html>
